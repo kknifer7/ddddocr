@@ -40,7 +40,7 @@ services:
       - DDDDOCR_CHARSETS_PATH=${DDDDOCR_CHARSETS_PATH:-""}       # 自定义字符集路径
     
     # 卷挂载配置，用于持久化数据或提供自定义模型
-    volumes:
+    # volumes:
       # 可选：挂载自定义模型目录
       # - ./custom_models:/app/custom_models
       
